@@ -1,0 +1,125 @@
+# General
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore IDE and editor configuration files
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+*.tvsconfig
+*.code-workspace
+
+# Ignore log files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore temporary files
+*.tmp
+*~
+*.swp
+
+# Dependency directories
+# For Node.js, Frontend frameworks, etc.
+node_modules/
+# For other package managers
+jspm_packages/
+bower_components/
+
+# Environment variables
+# Never commit sensitive data!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+!.env.example
+!.env.sample
+
+# Build artifacts & compiled files
+# General
+dist/
+out/
+build/ # Common for Java (Gradle) & JS frameworks
+.cache/
+coverage/
+
+# Java Specific
+# Compiled Java classes
+*.class
+
+# Compiled Java archives
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Gradle
+.gradle/
+# build/ (already listed under general build artifacts)
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# NetBeans project files
+nbproject/private/
+nbbuild/
+# dist/ (already listed)
+nbdist/
+.nb-gradle/
+
+# Frontend Specific (Many are covered by general build/node_modules)
+# If using Next.js
+.next/
+# If using Nuxt.js
+.nuxt/
+# If using SvelteKit
+.svelte-kit/
+
+# Other specific framework/tool caches or build outputs
+# Add as needed, e.g.:
+# .parcel-cache/
+# .quasar/
+# .serverless/
+# .terraform/
+
+# pnpm and Lerna logs (monorepo tools)
+pnpm-debug.log*
+lerna-debug.log*
+
+# SSR build output dist-ssr/
+
+# Microsoft/VS/Node Tools project files
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore local keys and certificates (common in Spring Boot dev)
+*.key
+*.pem
+
+# Ignore Spring Boot environment/property files (if not versioned)
+application-dev.properties
+application-prod.properties
+application-local.properties
+
