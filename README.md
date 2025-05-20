@@ -1,7 +1,9 @@
 # 2Click4Learn 
 
-İngilizce kelime öğrenmeyi kolaylaştıran bir Chrome uzantısı ve entegre web platformu.
-Chrome uzantısı yakında
+İngilizce kelime öğrenmeyi kolaylaştıran bir **Chrome uzantısı** ve entegre **web platformu**.
+
+🌐 [Web Platformu](https://2click4learn.com)  
+🧩 [Chrome Uzantısı](https://chromewebstore.google.com/detail/2click4learn/fgkkeimlnblfogcaimlfjfdoabogpmbp)
 
 ## 🚀 Nasıl Çalışır?
 
